@@ -1,6 +1,108 @@
+/*
+COLORI
+blu #0A325A
+verde #7CBB01
+grigio #D3D3D2
+*/
+
+
 *
 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+.container
+{
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+nav
+{
+  background: #0A325A;
+  height: 70px;
+  font-size: 13px;
+}
+
+/*
+vertical-align: middle;
+align-items: center;
+*/
+
+nav ul
+{
+  display: inline;
+  margin-left: 50px;
+}
+
+nav ul li
+{
+  color: #ffffff;
+  text-transform: uppercase;
+  list-style: none;
+  display: inline;
+  line-height: 70px;
+  color: white;
+  text-decoration: none;
+  /* background: red; */
+  padding: 0 15px;
+}
+
+nav ul li a
+{
+  color: white;
+  text-decoration: none;
+}
+
+.logo
+{
+  display: inline;
+  vertical-align: middle;
+}
+
+.bottoni
+{
+  display: inline;
+  position: absolute;
+  right: 0;
+  line-height: 70px;
+  color: #ffffff;
+}
+
+.btn
+{
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0 15px;
+  font-size: 13px;
+}
+
+.vuoto
+{
+  background: none;
+  border: none;
+}
+
+.contorno
+{
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px 35px;
+  background: none;
+}
+
+.verde
+{
+  border: 1px solid #7CBB01;
+  border-radius: 5px;
+  padding: 10px 10px;
+  background: #7CBB01;
 }

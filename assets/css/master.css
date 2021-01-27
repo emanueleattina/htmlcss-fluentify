@@ -22,6 +22,7 @@ body
 .row
 {
   margin: 0 -15px;
+  height: 100%;
 }
 
 .row::after
@@ -41,8 +42,10 @@ body
 .col-50
 {
   width: calc(100% / 2);
+  height: 100%;
   float: left;
   padding: 0 15px;
+  position: relative;
 }
 
 .col-33
@@ -50,6 +53,11 @@ body
   width: calc(100% / 3);
   float: left;
   padding: 0 15px;
+}
+
+.mt-30
+{
+  margin-top: 30px;
 }
 
 .ml-15
@@ -72,6 +80,7 @@ body
 .container
 {
   width: 80%;
+  height: 100%;
   margin: auto;
   position: relative;
 }
@@ -115,8 +124,9 @@ nav ul li a
 
 .logo
 {
-  display: inline;
+  display: inline-block;
   vertical-align: middle;
+  height: 50px;
 }
 
 /* BOTTONI */
@@ -171,8 +181,12 @@ nav ul li a
 
 .jumbo
 {
-  background: #0A325A;
   height: 500px;
+  background: #0A325A;
+  background-image: url("../img/background-header.png");
+  background-repeat: no-repeat;
+  background-size: 1000px, cover;
+  background-position: right bottom;
 }
 
 .jumbo-txt
@@ -184,13 +198,8 @@ nav ul li a
 
 .descrizione
 {
-  position: relative;
-}
-
-.prova
-{
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 0;
+  transform: translate(0, -50%);
 }

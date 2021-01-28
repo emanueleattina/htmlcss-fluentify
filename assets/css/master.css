@@ -226,6 +226,7 @@ nav ul li a
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 .sottotitolo h2
@@ -237,7 +238,6 @@ nav ul li a
 {
   color: #7D7E7E;
   margin-top: 15px;
-  width: 100%;
 }
 
 /* FINE SECTION GRIGIA */
